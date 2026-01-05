@@ -29,5 +29,5 @@ This project was created to demonstrate:
 - Understanding of single-page website design
 
 ## 👤 Author
-Ayodeji Opoju
+olamipe Opoju
 
