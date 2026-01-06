@@ -3,49 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <title>My First Web Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e90ff, #4facfe);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            background: white;
+            margin-top: 25px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        section h2 {
+            color: #1e90ff;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+        }
+
+        .image-caption {
+            text-align: center;
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        footer {
+            margin-top: 40px;
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
 
+<header>
     <h1>Welcome to My Website</h1>
+    <p>My first web page using HTML</p>
+</header>
 
-    <p>
-        I am learning website design with HTML. 
-        However, this website is also created to show my business idea.
-    </p>
+<div class="container">
 
-    <!-- IMAGE SECTION -->
-    <img src="smartspend-image.jpg" alt="SmartSpend illustration" width="400">
+    <section>
+        <h2>Introduction</h2>
+        <p>
+            I am learning website design with HTML. However, this website is also created
+            to show my business idea.
+        </p>
+    </section>
 
-    <hr>
+    <section>
+        <h2>SmartSpend Design</h2>
 
-    <h2>About SmartSpend</h2>
+        <!-- IMAGE IS HERE -->
+        <img src="smartspend-image.png" alt="SmartSpend – Manage Your Money Wisely">
 
-    <p>
-        SmartSpend is a business idea focused on helping people manage their money better.
-        It allows users to track expenses, plan budgets, and develop better saving habits.
-    </p>
+        <p class="image-caption">
+            SmartSpend is a platform designed to help users manage their money wisely,
+            track expenses, and build better financial habits.
+        </p>
+    </section>
 
-    <h3>Problem</h3>
-    <p>
-        Many people struggle with managing their finances because they do not track
-        their spending or plan their budgets properly.
-    </p>
+    <section>
+        <h2>About SmartSpend</h2>
+        <p>
+            SmartSpend helps individuals understand their spending and plan their finances
+            more effectively.
+        </p>
 
-    <h3>Solution</h3>
-    <p>
-        SmartSpend provides a simple and easy-to-use platform that helps users understand
-        where their money goes and make smarter financial decisions.
-    </p>
+        <ul>
+            <li>Track expenses</li>
+            <li>Plan budgets</li>
+            <li>Set savings goals</li>
+            <li>Improve financial awareness</li>
+        </ul>
+    </section>
 
-    <h3>Key Features</h3>
-    <ul>
-        <li>Expense tracking</li>
-        <li>Budget planning</li>
-        <li>Savings goals</li>
-        <li>Financial awareness</li>
-    </ul>
+</div>
+
+<footer>
+    <p>&copy; 2026 My First Web Page</p>
+</footer>
 
 </body>
 </html>
+
 
 
